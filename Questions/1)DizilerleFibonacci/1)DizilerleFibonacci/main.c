@@ -1,6 +1,6 @@
-#include<stdio.h>
-
 //n sayısına kadar fibonacci serisi oluştur, bunu dizileri kullanarak yap.
+
+#include<stdio.h>
 
 int main(){
     
@@ -25,11 +25,11 @@ int main(){
         
         for(i = 2; i < n; i++){
             
-            temp = fibonacci[0]; //0. dizinin 3 oldugunu varsayalim
-            fibonacci[0] += fibonacci[1]; //1. dizi de 2 olsun burada 2+3 diyerek bir sonraki fibonacci sayisini buluyoruz ve 0. dizi ustune yazıyoruz
-            fibonacci[1] = temp; //1. diziyi de eski 0. dizi degerine esitliyoruz
+            temp = fibonacci[0];
+            fibonacci[0] += fibonacci[1];
+            fibonacci[1] = temp;
             
-            printf("%d ", fibonacci[0]); //0. diziyi yazıyoruz cunku degisen deger o
+            printf("%d ", fibonacci[0]);
         }
     }
     

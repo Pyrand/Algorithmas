@@ -1,6 +1,6 @@
-#include<stdio.h>
-
 //Girilen sayının asal çarpanlarını bul.
+
+#include<stdio.h>
 
 int main(){
     

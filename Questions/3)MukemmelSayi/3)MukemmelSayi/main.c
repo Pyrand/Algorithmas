@@ -1,11 +1,11 @@
-#include<stdio.h>
-
 //Bir sayı gir ve bu sayının mükemmel sayı olup olmadığını belirle
-//(Bir sayının kendisi hariç çarpanlarının toplamı, girilen sayıya eşitse bu sayı mükemmel sayıdır. 6, 26, 496 örneğin...)
+//(Bir sayının kendisi hariç çarpanlarının toplamı, girilen sayıya eşitse bu sayı mükemmel sayıdır. Örneğin: 6, 26, 496)
+
+#include<stdio.h>
 
 int main(){
     
-    int number, i, multiplierSum = 1; //1 de dahil oldugundan dolayi sum 1'den basladi
+    int number, i, multiplierSum = 1;
     printf("Numberi gir: ");
     scanf("%d", &number);
     

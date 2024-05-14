@@ -14,11 +14,11 @@ int main(){
     
     while(sayi != 0){
         
-        if(sayi % 2 == 0){ //Eğer sayi 2ye tam bolunuyorsa binary kismina 0 eklenir
+        if(sayi % 2 == 0){
             sayi /= 2;
             binarys[i] = 0;
         }
-        else{  //Eger 2ye tam bolunmuyorsa 1 eklenir
+        else{
             sayi /= 2;
             binarys[i] = 1;
         }
@@ -26,7 +26,7 @@ int main(){
         i++;
     }
     
-    for(j = i - 1 ; j >= 0 ; j--){  //Binary kisimlari tersten yazdirilir.
+    for(j = i - 1 ; j >= 0 ; j--){
         printf("%d ", binarys[j]);
     }
 }

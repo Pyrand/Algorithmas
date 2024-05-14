@@ -1,6 +1,6 @@
-#include<stdio.h>
-
 //Yıldızlarla eşkenar üçgen oluşturan uygulamayı yap.
+
+#include<stdio.h>
 
 int main(){
     

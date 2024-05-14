@@ -1,8 +1,8 @@
-#include<stdio.h>
-#include<math.h>
-
 //n haneli bir sayının basamaklarının n’inci üstlerinin toplamı, sayının kendisine eşitse, böyle sayılara Armstrong sayı denir.
 //Girilen sayının Armstrong sayısı olup olmadığını bulan programı yaz.
+
+#include<stdio.h>
+#include<math.h>
 
 int main(){
     
@@ -11,17 +11,15 @@ int main(){
     printf("Sayiyi giriniz: ");
     scanf("%d", &sayi);
     
-    int asılSayı = sayi; //Sayi degiskeni while icinde degisecegi icin son karsilastirma islemi bu degiskenle yapilacak
-    int tempSayi = sayi; //While icinde gecici bi degiskene ihtiyacimiz oldugundan olusturduk
+    int asılSayı = sayi;
+    int tempSayi = sayi;
     
-    
-    //Burada basamak sayisini buluyoruz
     while(tempSayi != 0){
         basamakSayisi++;
         tempSayi /= 10;
     }
     
-    tempSayi = sayi; //Yine while icin
+    tempSayi = sayi;
     
     while(sayi != 0){
         tempSayi = sayi % 10;

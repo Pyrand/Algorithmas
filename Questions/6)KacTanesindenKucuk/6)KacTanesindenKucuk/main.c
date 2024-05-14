@@ -1,8 +1,8 @@
+//0-99 arası rastgele 10 sayıyla doldurulan bir dizide dışarıdan girilen bir sayının dizinin elemanlarından kaç tanesinden küçük olduğunu bulan programı yaz.
+
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
-
-//0-99 arası rastgele 10 sayıyla doldurulan bir dizide dışarıdan girilen bir sayının dizinin elemanlarından kaç tanesinden küçük olduğunu bulan programı yaz.
 
 int main(){
     

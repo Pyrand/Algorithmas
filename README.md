@@ -1,0 +1,2 @@
+# Algorithmas
+Algoritma soru çözümleri.

@@ -6,17 +6,18 @@
 #define SIZE 26
 
 bool isKey(char cipherText[]){
-	return(cipherText[0] != NULL);
+	return(cipherText[0] != NULL); 
 }
 
 int main(){
 	printf("ENCRYPTION MACHINE ver. 0.05\n\n");
-	int choice, i, j;
+	int choice, i, j, k;
 	char plainText[SIZE] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','R','S','T','U','V','W','X','Y','Z'};
 	char cipherText[SIZE + 1] = "";
+	char text[100], newText[100];
 	
 	while(1){
-		printf("***** MAIN MENU *****\n");
+		printf("\n***** MAIN MENU *****\n");
 		printf("1) Enter key\n");
 		printf("2) Encrypt message\n");
 		printf("3) Decrypt message\n");
@@ -53,10 +54,32 @@ int main(){
 					}
 				}			
 				break;
+				
+			case 2: printf("Enter a plain text (max 100 characters): ");
+				getchar();
+				fgets(text, sizeof(text), stdin);
+				
+				
+				for(i = 0; i < strlen(text); i++){
+					char character = text[i];							
+					
+					for(j = 0; j < SIZE; j++){
+						if(plainText[j] == character){
+							newText[i] = cipherText[j];
+							break;
+						}
+					}
+				}
+				
+		
+				newText[i] = '\0';
+				printf("%s\n", newText);
+				break;
+				
 			} 
 		}
 		else{
-			printf("ERROR: Please enter the key first!\n");
+			printf("ERROR: Please enter the key first!\n\n");
 		}
 		
 		

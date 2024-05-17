@@ -31,6 +31,5 @@ int main(){
             
             printf("%d ", fibonacci[0]);
         }
-    }
-    
+    }    
 }

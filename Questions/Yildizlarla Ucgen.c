@@ -4,13 +4,13 @@
 
 int main(){
     
-    int row, i, j;
-    printf("Row kac olsun: ");
-    scanf("%d", &row);
+    int yukseklik, i, j;
+    printf("Yukseklik kac olsun: ");
+    scanf("%d", &yukseklik);
     
-    for(i = 1; i <= row; i++){
+    for(i = 1; i <= yukseklik; i++){
         
-        for(j = 1; j <= row - i; j++){
+        for(j = 1; j <= yukseklik - i; j++){
             printf(" ");
         }
         

@@ -4,17 +4,17 @@
 
 int main(){
     
-    int number, i = 2;
-    printf("Number: ");
-    scanf("%d", &number);
+    int sayi, i = 2;
+    printf("Sayiyi giriniz: ");
+    scanf("%d", &sayi);
     
     printf("Sayının asal çarpanları: ");
     
-    while(number != 1){
+    while(sayi != 1){
         
-        if(number % i == 0){
+        if(sayi % i == 0){
             printf("%d ", i);
-            number /= i;
+            sayi /= i;
         }
         else{
             i++;

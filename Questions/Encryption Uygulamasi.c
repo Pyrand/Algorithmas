@@ -18,6 +18,7 @@ bool isKey(char cipherText[]){
 }
 
 int main(){
+	
 	printf("ENCRYPTION MACHINE ver. 1.1\n\n");
 	int choice, i, j, k;
 	char plainText[SIZE] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','R','S','T','U','V','W','X','Y','Z'};

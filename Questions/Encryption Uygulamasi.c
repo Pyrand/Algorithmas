@@ -1,3 +1,5 @@
+//Encryption & decryption uygulamasi (C Odev)
+
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
@@ -18,12 +20,16 @@ bool isKey(char cipherText[]){
 }
 
 int main(){
-	
-	printf("ENCRYPTION MACHINE ver. 1.1\n\n");
-	int choice, i, j, k;
-	char plainText[SIZE] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','R','S','T','U','V','W','X','Y','Z'};
+	printf("ENCRYPTION MACHINE ver. 2.0\n\n");
+	int choice, i, j, k, z = 0;
+	char plainText[SIZE];
 	char cipherText[SIZE + 1] = "";
 	char text[100], newText[100];
+	
+	for(i = 'A'; i <= 'Z'; i++){
+		plainText[z] = i;
+		z++;
+	}
 	
 	while(1){
 		printf("\n***** MAIN MENU *****\n");
@@ -142,4 +148,3 @@ int main(){
 	
 	return 0;
 }
-

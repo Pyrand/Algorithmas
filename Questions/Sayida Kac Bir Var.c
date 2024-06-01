@@ -1,5 +1,6 @@
 //Girilen sayinin binary formda kac adet 1 icerdigini bulun.
-//NOT: Bu uygulama sadece 8bitlik sayilar icindir daha buyuk sayilar icin i degeri degistirilebilir.
+//NOT: Bu uygulama sadece 8 bitlik sayilar icindir daha buyuk sayilar icin i degeri degistirilebilir.
+//NOT2: i degerinin 128 olması 8 bitlik sayilar üzerinden islem yapildigi icindir. Daha yuksek sayilar icin NOT dikkate alinmali.
 
 #include<stdio.h>
 #include<math.h>

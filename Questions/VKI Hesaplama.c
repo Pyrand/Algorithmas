@@ -1,5 +1,5 @@
 //VKI hesaplama uygulamasi yapin.
-//NOT: Bu program tamamlanmamistir. Basit kisimlari kendiniz doldurabilirsiniz ama temel kod bu sekildedir.
+//NOT: Bu program tamamlanmamistir. Basit kisimlari kendiniz doldurabilirsiniz ama temel kod bu sekildedir, enum kullanmak soru geregidir.
 
 #include<stdio.h>
 #include<ctype.h>

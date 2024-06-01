@@ -1,5 +1,5 @@
 //Girilen float sayilarin ondalik kismini degistiren program
-//NOT: Float degerlerin integer-decimal kisimlari cok ekstra. Daha kisa yapilabilir deneyin...
+//NOT: Floatın integer-decimal kisimlarinin baska degisken icinde tutulmasi cok ekstra. Daha kisa yapilabilir deneyin...
 
 #include<stdio.h>
 
@@ -11,10 +11,10 @@ int main(){
 	printf("Enter the num2: ");
 	scanf("%f", &num2);
 	
-	num1int = (int)num1; //float degerlerin integer kismi
+	num1int = (int)num1; //Float degerlerin integer kismi
 	num2int = (int)num2;
 	
-	num1dec = num1 - num1int; //float degerlerin decimal kismi
+	num1dec = num1 - num1int; //Float degerlerin decimal kismi
 	num2dec = num2 - num2int;
 	
 	num1int = num1int + num2dec; //Decimal kisimlarini degistirip topluyorum 

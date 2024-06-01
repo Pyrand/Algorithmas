@@ -1,4 +1,4 @@
-//Girilen 4 basamakli sayiyi tersten yazdirin.
+//Girilen 4 basamakli sayiyi tersten yazdir.
 
 #include<stdio.h>
 
